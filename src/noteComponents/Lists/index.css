@@ -1,0 +1,6 @@
+.notesContainer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}

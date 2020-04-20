@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+
+
+.noteContainer {
+    height: 350px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-repeat: none;
+
+}
+
+.noteContainer--note {
+    background-image: url("../images/note.png");
+}
+
+.noteContainer--note1 {
+    background-image: url("../images/note1.png");
+}
+
+.noteContainer--note1 .noteContainer__text{
+    transform: rotate(-12deg);
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.noteContainer--note2 {
+    background-image: url("../images/note2.png");
+}
+
+.noteContainer--note2 .noteContainer__text {
+    max-width: 200px;
+    font-family: 'Caveat', cursive;
+
+}
+
+.noteContainer--note3 {
+    background-image: url("../images/note3.png");
+}
+
+.noteContainer--note3 .noteContainer__text {
+    font-family: 'Handlee', cursive;
+}
+
+.noteContainer--note4 .noteContainer__deletebtn {
+    top: 70px;
+    right: 30px;
+}
+.noteContainer--note4 .noteContainer__text {
+    transform: rotate(10deg);
+    font-family: 'Indie Flower', cursive;
+}
+
+.noteContainer--note4 {
+    background-image: url("../images/note4.png");
+}
+
+.noteContainer__text {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    max-width: 250px;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 20px;
+}
+
+.noteContainer__deletebtn {
+    position: absolute;
+    top: 40px;
+    right: 70px;
+    display: inline-block;
+    color: rgb(61, 60, 60);
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 25px;
+    margin: 0px;
+}
+
+.noteContainer__deletebtn:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    }

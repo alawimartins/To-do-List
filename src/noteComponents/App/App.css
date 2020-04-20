@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+.title {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 70px;
+  font-weight: 100;
+  color: #646464;
+  margin:0;
+  border-bottom:thin dashed gray;
+}
+
+.subtitle {
+  top: calc(50% - 70px);
+  left: 0%;
+  width: 100%;
+  position: absolute;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+
+
+body {
+  background-color: rgb(253, 253, 246);
+}
+
+.App {
+  text-align: center;
+}
+
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  background: #7ce785;
+  color: #FFF;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 120px;
+  text-align: center;
+  vertical-align: middle;
+  text-anchor: middle;
+  overflow: hidden;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  border-bottom: solid 3px #a19a9a;
+  line-height: 120px;
+  z-index: 10;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-family: 'Nothing You Could Do', cursive;
+
+
+}
+
+.btn:active{
+  -ms-transform: translateY(2px);
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+  border-bottom: none;
+}
+
+.btnExit {
+  background: #ff8181;
+  border-bottom: solid 3px #bd6565;
+  -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.btnOpen{
+  -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.btn:hover {
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+  }
