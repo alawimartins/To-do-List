@@ -1,4 +1,4 @@
-# To do List
+# To-do list
 
 This was my first personal project built with React.js.
 
